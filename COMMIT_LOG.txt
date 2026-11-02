@@ -1,0 +1,4 @@
+d42499d | 2026-10-31T15:53:09Z | Harden parser boundary tests and finalize verified evidence, reports and honest delivery checklist
+cbab33b | 2026-10-31T15:39:47Z | Integrate offline Windows UI, interactive viewers, plots and responsive background tasks
+426cb7d | 2026-10-31T15:35:40Z | Add deterministic parallel experiments, gradient checks, mock recovery and core tests
+c087d2a | 2026-10-31T15:34:18Z | Implement isolated C++ rod assembly and bounded validated importers

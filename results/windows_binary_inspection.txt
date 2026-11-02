@@ -1,0 +1,25 @@
+Windows x64 cross-build inspection; NOT a Windows 11 launch test.
+Compiler: GNU MinGW 13-posix; -O3 -DNDEBUG, static C++/thread runtime.
+CMake 3.28.3 Release cross-build completed for all 3 targets.
+
+Launch.exe
+SHA256: ee58f7e1c23b298fe2ba47a1f249f247d71318513cca6c2f86140855f05e543d
+DLL Name: ADVAPI32.dll
+DLL Name: comdlg32.dll
+DLL Name: GDI32.dll
+DLL Name: KERNEL32.dll
+DLL Name: msvcrt.dll
+DLL Name: USER32.dll
+
+workbench_cli.exe
+SHA256: 22d8c97e2821f816b8812c4bcee7ddf8db10ff11d17680d660bc6790394ed042
+DLL Name: ADVAPI32.dll
+DLL Name: KERNEL32.dll
+DLL Name: msvcrt.dll
+
+core_tests.exe
+SHA256: 21583539263b973d852bf85acf246be941375486434a7dee65c231b53bd0986d
+DLL Name: ADVAPI32.dll
+DLL Name: KERNEL32.dll
+DLL Name: msvcrt.dll
+

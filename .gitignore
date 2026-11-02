@@ -1,0 +1,6 @@
+build*/
+*.exe
+*.o
+*.bundle
+*.zip
+results/runtime_*

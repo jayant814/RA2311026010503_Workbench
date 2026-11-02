@@ -1,0 +1,10 @@
+Compiler: 13.3.0
+C++: 201703
+Logical CPUs (thread API): 9
+model name	: AMD EPYC 9V74 80-Core Processor
+Physical core topology: see environment.txt (lscpu)
+RAM bytes (host-visible): 10451427328
+Platform: Linux container; shared host, not Windows
+Release build: -O3 -DNDEBUG (CMake GNU Release)
+Warm-up: reference solve plus one untimed batch per worker count
+Five repetitions; steady_clock; excludes generation, verification, IO and UI. Includes allocation, thread startup and joining.

@@ -1,0 +1,10 @@
+Compiler: 13-posix
+C++: 201703
+Logical CPUs (thread API): 8
+RAM bytes: 8317952000
+Physical cores: 4
+CPU: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+Platform: Windows
+Bundled GNU Release flags: -O3 -DNDEBUG; other builds must record their actual flags.
+Warm-up: reference solve plus one untimed batch per worker count
+Five repetitions; steady_clock; excludes generation, verification, IO and UI. Includes allocation, thread startup and joining.

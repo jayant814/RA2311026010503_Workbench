@@ -1,0 +1,60 @@
+PASS Dirichlet endpoints
+PASS midpoint interpolation error q*h*h/(8*k)
+PASS Dirichlet endpoints
+PASS midpoint interpolation error q*h*h/(8*k)
+PASS second-order convergence
+PASS Dirichlet endpoints
+PASS midpoint interpolation error q*h*h/(8*k)
+PASS second-order convergence
+PASS Dirichlet endpoints
+PASS midpoint interpolation error q*h*h/(8*k)
+PASS second-order convergence
+PASS zero-source linear solution
+PASS two-element assembly
+PASS reject zero conductivity
+PASS reject NaN
+PASS ASCII STL sample 12 triangles
+PASS reject empty STL
+PASS reject non-finite STL
+PASS reject no facets
+PASS STL 20000-triangle boundary
+PASS STL triangle cap
+PASS STL missing endsolid
+PASS STL trailing data
+PASS synthetic CSV sample 84 nodes
+PASS reject header-only CSV
+PASS reject non-finite CSV
+PASS reject duplicate IDs
+PASS reject extra column
+PASS reject trailing numeric junk
+PASS CSV 50000-node boundary
+PASS CSV node cap
+PASS 8 MiB cap
+PASS seed repeatability
+PASS serial parallel exact agreement
+PASS cancel discards partial batch
+PASS batch memory cap
+PASS central finite-difference gradient
+PASS central finite-difference gradient
+PASS central finite-difference gradient
+PASS central finite-difference gradient
+PASS first update reduces loss
+PASS 100 subsequent steps converge
+PASS disconnected telemetry rejected
+PASS connected telemetry
+PASS injected timeout
+PASS timeout recovery
+PASS disconnect
+PASS disconnected telemetry rejected
+PASS connected telemetry
+PASS injected timeout
+PASS timeout recovery
+PASS disconnect
+PASS disconnected telemetry rejected
+PASS connected telemetry
+PASS injected timeout
+PASS timeout recovery
+PASS disconnect
+ALL 57 CHECKS PASSED
+
+AddressSanitizer and UBSan enabled. Leak detection disabled because container process tracing prevents LeakSanitizer.

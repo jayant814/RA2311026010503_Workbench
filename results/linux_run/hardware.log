@@ -1,0 +1,12 @@
+NUCLEO-F401RE (mock): USB virtual COM; temperature telemetry; STM32 control
+SIMULATED id=mcu seq=1 temperature_C=26.5
+SIMULATED timeout after 250 ms budget. Link retained; click Read telemetry to retry.
+SIMULATED id=mcu seq=2 temperature_C=26.5
+Basys 3 (mock): USB UART; counter telemetry; programmable logic
+SIMULATED id=fpga seq=1 counter=1024 clock_MHz=100
+SIMULATED timeout after 250 ms budget. Link retained; click Read telemetry to retry.
+SIMULATED id=fpga seq=2 counter=1024 clock_MHz=100
+J-Link (mock): USB debug probe; JTAG/SWD; target voltage status; NOT a compute board
+SIMULATED id=jtag seq=1 target_voltage_V=3.3 debug_link=idle
+SIMULATED timeout after 250 ms budget. Link retained; click Read telemetry to retry.
+SIMULATED id=jtag seq=2 target_voltage_V=3.3 debug_link=idle

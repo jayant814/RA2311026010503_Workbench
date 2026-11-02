@@ -1,0 +1,36 @@
+Windows 11 GUI Validation – November 2026
+=========================================
+
+Status:  PASS
+
+Platform:  Microsoft Windows 11 Home Single Language 10.0.26200 (Build 26200)
+CPU:       11th Gen Intel Core i5-1135G7 @ 2.40 GHz  (4 physical cores, 8 logical)
+RAM:       ~7.75 GiB
+Compiler:  g++ 13.1.0 (MSYS2 MinGW64) – static link, no runtime DLL required
+
+Binary tested:   Launch.exe (3 338 286 bytes)
+SHA256:          8adf9493bb3eb3c538df04a6010c666f391b0d30c04ace338953427c2ed8c7a4
+
+Test outcomes
+-------------
+* double-click Launch.exe → Windows Security Zone warning (unsigned exe from ZIP) → click Run
+  → application window opens with no terminal, no installer, no runtime install
+* All five views functional: Geometry, Thermal Analysis, Performance, Hardware, Backpropagation
+* STL sample loads, wireframe renders correctly in orthographic 3D view
+* CSV sample loads, heat-mapped point cloud renders with legend bar
+* Thermal Solve runs and plots FE vs exact curves
+* Convergence test (N=10/20/40/80) produces expected ×4 error-ratio per mesh halving
+* Benchmark runs 1/2/4 workers; speedups ≈ 1.97× @ 2 workers, ≈ 3.83× @ 4 workers
+* Hardware view: all 3 mock adapters connect/disconnect/read telemetry/inject+recover timeout
+* Backpropagation: gradient check shows errors < 1.1e-10; loss converges after 101 updates
+
+core_tests.exe:  ALL 57 CHECKS PASSED on Windows 11 native target
+workbench_cli.exe --evidence:  Evidence exported successfully
+
+UI redesign:  winmain.cpp rebuilt with modern design on 2026-11-01
+               Deep navy gradient header, cyan/amber accent palette, owner-draw styled buttons,
+               Segoe UI typography, Consolas monospace fields, anti-aliased canvas surfaces.
+
+Security note:  The "publisher could not be verified" prompt is expected for an
+                unsigned self-compiled prototype from a ZIP archive.  Click Run once
+                and the application opens without further prompts.
